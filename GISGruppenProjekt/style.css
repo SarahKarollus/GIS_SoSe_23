@@ -1,0 +1,30 @@
+html {
+  background-color: black;
+  font-family: "unibody-8-new", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.options {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  top: 40vh;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+a:hover {
+  font-size: 20px;
+}
+.medium h1{
+  color:darkred;
+}
+.interaktion h1{
+  color:darkgreen;
+}
+
+
