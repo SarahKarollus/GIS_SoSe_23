@@ -1,9 +1,10 @@
 html {
   background-color: black;
   font-family: "unibody-8-new", sans-serif;
-font-weight: 400;
-font-style: normal;
+  font-weight: 400;
+  font-style: normal;
 }
+
 .options {
   position: relative;
   display: flex;
@@ -15,16 +16,17 @@ font-style: normal;
 
 a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
+
 a:hover {
   font-size: 20px;
 }
-.medium h1{
-  color:darkred;
-}
-.interaktion h1{
-  color:darkgreen;
+
+.medium h1 {
+  color: darkred;
 }
 
-
+.interaktion h1 {
+  color: darkgreen;
+}
