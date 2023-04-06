@@ -15,7 +15,7 @@ html {
 }
 
 a {
-         font-size: 20px;            /* Verlinkung zu medium und iteraktion, text design */
+         font-size: 20px;                       /* Verlinkung zu medium und iteraktion, text design */
   color: black;
 }
 
@@ -37,7 +37,7 @@ h1 {
 
 h2 {
   color: white;  
-  text-align: center;                           /* Überschrift h2  schriftfarbe */
+  text-align: center;                        /* Überschrift h2  schriftfarbe */
 }
 
 p {
