@@ -49,3 +49,9 @@ p {
 .back {
   color: white;    
 }                                           /* Design von dem "Back" button */
+
+.zentriert {
+  display: block;                           /* Zentriert den Inhalt  */
+  margin: 0 auto;
+}
+
