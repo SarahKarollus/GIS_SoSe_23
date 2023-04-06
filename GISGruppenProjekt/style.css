@@ -1,6 +1,6 @@
 html {
   background-color: black;
-  font-family: "unibody-8-new", sans-serif;
+  font-family: "unibody-8-new", sans-serif;     /* grundlegendes Seiten Design */
   font-weight: 400;
   font-style: normal;
 }
@@ -8,42 +8,44 @@ html {
 .options {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;                              /* grundlegendes Seiten Design + Responsive */
   justify-content: space-evenly;
   flex-direction: row;
   top: 40vh;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none;                      /* Verlinkung zu medium und iteraktion, text design */
   color: black;
 }
 
 a:hover {
-  font-size: 20px;
+  font-size: 20px;                            /* Verlinkung zu medium und iteraktion, wenn gehovert wird text design */
 }
 
 .medium h1 {
-  color: darkred;
+  color: darkred;                          /* klasse (.) medium, tag h1 wird angesprochen */
 }
 
 .interaktion h1 {
-  color: darkgreen;
+  color: darkgreen;                        /* klasse (.) interaktion, tag h1 wird angesprochen */
 }
 
 h1 {
-  color: white;
+  color: white;                            /* Überschrift h1  schriftfarbe */
 }
 
 h2 {
-  color: white;
+  color: white;  
+  text-align: center;                           /* Überschrift h2  schriftfarbe */
 }
 
 p {
-  color: white;
+  color: white;     
+ text-align: center;                       /* Texte auf Unterseiten design  schriftfarbe */
 }
 
 
-footer {
-  color: white;
-}
+.back {
+  color: white;    
+}                                           /* Design von dem "Back" button */
