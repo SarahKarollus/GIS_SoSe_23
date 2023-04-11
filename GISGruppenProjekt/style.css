@@ -1,6 +1,7 @@
 html {
   background-color: black;
-  font-family: "unibody-8-new", sans-serif;     /* grundlegendes Seiten Design; Schriftart/style */
+  font-family: "unibody-8-new", sans-serif;
+  /* grundlegendes Seiten Design; Schriftart/style */
   font-weight: 400;
   font-style: normal;
 }
@@ -8,50 +9,65 @@ html {
 .options {
   position: relative;
   display: flex;
-  flex-wrap: wrap;                              /* grundlegendes Seiten Design + Responsive */
+  flex-wrap: wrap;
+  /* grundlegendes Seiten Design + Responsive */
   justify-content: space-evenly;
   flex-direction: row;
   top: 40vh;
 }
 
 a {
-         font-size: 20px;                       /* Verlinkung zu medium und iteraktion, text design */
+  font-size: 20px;
+  /* Verlinkung zu medium und iteraktion, text design */
   color: black;
 }
 
 a:hover {
-  font-size: 30px;                            /* Verlinkung zu medium und iteraktion, wenn gehovert wird text design */
+  font-size: 30px;
+  /* Verlinkung zu medium und iteraktion, wenn gehovert wird text design */
 }
 
-.medium h1 {
-  color: darkred;                          /* klasse (.) medium, tag h1 wird angesprochen */
+.media h1 {
+  color: darkred;
+  /* klasse (.) medium, tag h1 wird angesprochen */
 }
 
-.interaktion h1 {
-  color: darkgreen;                        /* klasse (.) interaktion, tag h1 wird angesprochen */
+.interaction h1 {
+  color: darkgreen;
+  /* klasse (.) interaktion, tag h1 wird angesprochen */
 }
 
 h1 {
-  color: white;                            /* Überschrift h1  schriftfarbe */
+  color: white;
+  /* Überschrift h1  schriftfarbe */
 }
 
 h2 {
-  color: white;  
-  text-align: center;                        /* Überschrift h2  schriftfarbe */
+  color: white;
+  text-align: center;
+  /* Überschrift h2  schriftfarbe */
 }
 
 p {
-  color: white;     
- text-align: center;                       /* Texte auf Unterseiten design  schriftfarbe */
+  color: white;
+  text-align: center;
+  /* Texte auf Unterseiten design  schriftfarbe */
 }
 
 
 .back {
-  color: white;                           /* Design von dem "Back" button */
-}                                           
+  color: white;
+  /* Design von dem "Back" button */
+}
 
-.zentriert {
-  display: block;                           /* Zentriert den Inhalt  */
+.centered {
+  display: block;
+  /* Zentriert den Inhalt  */
   margin: 0 auto;
 }
 
+.source {
+  font-size: 5px;
+  color: white;
+  text-align: center;
+}
